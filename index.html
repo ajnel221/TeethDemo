@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Teeth</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=540 style="width: 960px; height: 540px; background: #231F20"></canvas>
-    <script src="Build/Teeth_WEBGL_Build.loader.js"></script>
+    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <script src="Build/TeethDemo.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Teeth_WEBGL_Build.data",
-        frameworkUrl: "Build/Teeth_WEBGL_Build.framework.js",
-        codeUrl: "Build/Teeth_WEBGL_Build.wasm",
+        dataUrl: "Build/TeethDemo.data",
+        frameworkUrl: "Build/TeethDemo.framework.js",
+        codeUrl: "Build/TeethDemo.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Johan Nel",
         productName: "Teeth",
